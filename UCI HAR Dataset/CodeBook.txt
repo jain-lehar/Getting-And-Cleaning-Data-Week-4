@@ -1,0 +1,14 @@
+x_data_test - contais the test data set read in the form of a data table.
+activity_test - contains the list of numbers dividing x_data_test into several activities
+subject_test - contains the list of numbers dividing x_data_test into several subjects
+x_data_train - contais the training data set read in the form of a data table.
+activity_train - contains the list of numbers dividing x_data_trin into several activities
+subject_train - contains the list of numbers dividing x_data_train into several subjects
+x_mean_test - contains the means of all rows of x_data_test
+x_mean_train - contains the mean of all rows of x_data_train
+x_sd_test - contains the standard deviation of all rows of x_data_test
+x_sd_train - contains the standard deviation of all rows of x_data_train
+df_train - a data frame formed using training samples. Its coloumns are x_meam_train, x_sd_train, activity_train,subject_train.
+df_train - a data frame formed using test samples. Its coloumns are x_meam_test, x_sd_test, activity_test,subject_test.
+df - contains the required data frame with descriptive names of activities.
+new_data - contains a list giving the average of various coloumns of df grouped by activities and subjects.
